@@ -4,6 +4,10 @@ import "./styles.css";
 import Card1 from "./components/Card1";
 import Card2 from "./components/Card2";
 
+import cardsArr from './data'
+
+console.log('this is cardsArr: ', cardsArr)
+
 export default function App()
 {
   return (
