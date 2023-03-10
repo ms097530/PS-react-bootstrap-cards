@@ -1,5 +1,9 @@
+import { useState } from 'react'
+
 export default function Counter()
 {
+    console.log('useState - ', useState)
+
     return (
         <div className="Counter">
             <span>Current Count: 0</span>
