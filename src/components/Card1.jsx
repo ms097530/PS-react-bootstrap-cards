@@ -6,7 +6,7 @@ const Card1 = (props) =>
     return (
         <div className="card" style={{ width: "18rem" }}>
             <CardImage />
-            <CardBody />
+            <CardBody title="Santorini" />
         </div>
     );
 };
