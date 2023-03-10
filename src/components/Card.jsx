@@ -1,7 +1,7 @@
 import CardBody from "./CardBody";
 import CardImage from "./CardImage";
 //create the component
-const Card1 = (props) =>
+const Card = (props) =>
 {
     return (
         <div className="card" style={{ width: "18rem" }}>
@@ -12,4 +12,4 @@ const Card1 = (props) =>
 };
 
 //export the component
-export default Card1;
+export default Card;

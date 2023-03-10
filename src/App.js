@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 //import card1
-import Card1 from "./components/Card1";
+import Card from "./components/Card";
 import Card2 from "./components/Card2";
 
 import cardsArr from './data'
@@ -13,11 +13,9 @@ export default function App()
   const cards = cardsArr.map((cardData, index) =>
   {
     return (
-      <Card1
-        img={cardData.img}
-        title={cardData.title}
-        text={cardData.text}
-        url={cardData.url}
+      <Card
+        key={index}
+        {...cardData}
       />
     )
   })
@@ -46,8 +44,9 @@ export default function App()
           })
         } */}
 
-        <Card1 />
-        <Card2 />
+        {/* ORIGINAL */}
+        {/* <Card1 />
+        <Card2 /> */}
       </section>
     </div>
   );
