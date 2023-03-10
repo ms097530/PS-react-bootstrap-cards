@@ -3,6 +3,7 @@ import "./styles.css";
 //import card1
 import Card from "./components/Card";
 import Card2 from "./components/Card2";
+import Counter from "./components/Counter";
 
 import cardsArr from './data'
 
@@ -47,6 +48,9 @@ export default function App()
         {/* ORIGINAL */}
         {/* <Card1 />
         <Card2 /> */}
+      </section>
+      <section className="counter">
+        <Counter />
       </section>
     </div>
   );
